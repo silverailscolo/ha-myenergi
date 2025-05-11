@@ -11,8 +11,8 @@ from datetime import timedelta
 
 import homeassistant.util.dt as dt_util
 from homeassistant.config_entries import ConfigEntry
-from homeassistant.core import Config
 from homeassistant.core import HomeAssistant
+from homeassistant.core_config import Config
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 from homeassistant.helpers.update_coordinator import UpdateFailed
 from homeassistant.helpers.httpx_client import get_async_client
